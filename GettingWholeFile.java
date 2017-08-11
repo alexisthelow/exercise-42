@@ -5,6 +5,7 @@ public class GettingWholeFile {
 	public static void main(String[] args) throws Exception {
 		int fourLetter = 0;
 		int caps = 0;
+		
 		String fn1 = "some-words.txt";
 		String fn2 = "GettingWholeFile.java";
 		
@@ -30,4 +31,4 @@ public class GettingWholeFile {
 		System.out.println(fourLetter + " four-letter words in " + fn1);
 		System.out.println(caps + " words start with capitals in " + fn2);
 	}
-}
+} // word word Word word Word Word Word word
